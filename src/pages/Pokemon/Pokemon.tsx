@@ -65,10 +65,10 @@ function Pokemon() {
 
     if (isFavourite) {
       removeFavouriteMutation.mutate({ id: pokemonId });
-      pokemonImgElement?.classList?.toggle("animate-shake");
+      pokemonImgElement?.classList?.remove("animate-shake");
     } else {
       createFavouriteMutation.mutate(pokemon);
-      pokemonImgElement?.classList?.toggle("animate-shake");
+      pokemonImgElement?.classList?.add("animate-shake");
     }
   };
 

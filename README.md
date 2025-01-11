@@ -1,8 +1,14 @@
-# Pokemon Frontend
+# Vite React App
 
 ## Overview
 
-This project is a React application bootstrapped with **Vite** for fast development and optimized builds.
+This project is a React application bootstrapped with **Vite** for fast development and optimized builds. You can access its live version here https://pokemon-frontend-neon.vercel.app/ . The API response is extremley slow because the backend deployed to the free server of Render. I would highly recommend to run it on local.
+
+---
+
+## Assumptions
+
+- Since there is no sign in feature, pokemon added to favourite is global
 
 ---
 

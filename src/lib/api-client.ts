@@ -12,7 +12,7 @@ function authRequestInterceptor(config: InternalAxiosRequestConfig) {
 }
 
 export const api = Axios.create({
-  baseURL: import.meta.env.VITE_APP_API_URL,
+  baseURL: import.meta.env.VITE_APP_API_URL || "http://localhost:3100",
 });
 
 api.interceptors.request.use(authRequestInterceptor);

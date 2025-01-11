@@ -1,5 +1,5 @@
 import Loader from "@/components/Loader";
-import { PokemonCard } from "@/components/PokemonCard";
+import { PokemonCard } from "@/features/pokemon-list/components/PokemonCard";
 import {
   Dialog,
   DialogContent,

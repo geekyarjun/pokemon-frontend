@@ -82,8 +82,7 @@ This builds the application and serves the production build locally.
 │   ├── hooks          # Custom React hooks
 │   ├── pages          # Application pages
 │   ├── services       # API service functions
-│   ├── styles         # Global and component-specific styles
-│   ├── utils          # Utility functions
+│   ├── lib            # lib configs and Utility functions
 │   └── main.jsx       # Entry point
 ├── public             # Public files served as-is
 ├── .env               # Environment variables
@@ -102,9 +101,9 @@ Here are the key environment variables used in this project:
 
 Here are the key environment variables used in this project:
 
-| Variable         | Description               | Default Value |
-| ---------------- | ------------------------- | ------------- |
-| VITE_APP_API_URL | Base URL for API requests |
+| Variable         | Description               | Default Value         |
+| ---------------- | ------------------------- | --------------------- |
+| VITE_APP_API_URL | Base URL for API requests | http://localhost:3100 |
 
 ---
 
